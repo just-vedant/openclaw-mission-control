@@ -133,7 +133,7 @@ docker compose -f compose.yml --env-file .env up -d --force-recreate
 ### 3. Open the application
 
 - Mission Control UI: http://localhost:3000
-- Backend health: http://localhost:8000/healthz
+- Backend health: http://localhost:8000/health
 
 ### 4. Stop the stack
 
